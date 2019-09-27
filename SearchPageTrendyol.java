@@ -47,7 +47,7 @@ public class SearchPageTrendyol {
         driver.findElement(By.cssSelector(".fv-hv-img")).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email")));
         driver.findElement(By.id("email")).sendKeys("buket.acl@gmail.com");
-        driver.findElement(By.id("password")).sendKeys("selinediz");
+        driver.findElement(By.id("password")).sendKeys("DENEMESIFREGIRIMI");
         driver.findElement(By.id("password")).sendKeys(Keys.ENTER);
 
         //wait.until(ExpectedConditions.visibilityOfElementLocated(By.className(".icon\\ navigation\\-icon\\-favorites")));
