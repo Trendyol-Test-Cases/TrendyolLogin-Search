@@ -32,7 +32,7 @@ public class LoginPageTrendyol   {
         driver.findElement(By.className("login-link")).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#email")));
         driver.findElement(By.cssSelector("#email")).sendKeys("buket.acl@gmail.com");
-        driver.findElement(By.cssSelector("#pass")).sendKeys("buket1192");
+        driver.findElement(By.cssSelector("#pass")).sendKeys("DENEMESIFREGIRISI");
         driver.findElement(By.id("loginbutton")).click();
 
         Assert.assertEquals(driver.getTitle(),"Kadın, Moda, Giyim, Stil, Giyim Markaları | Trendyol");
