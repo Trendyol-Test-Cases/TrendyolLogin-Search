@@ -1,3 +1,4 @@
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -60,5 +61,8 @@ public class SearchPageTrendyol {
 
         System.out.println("Listedeki ürün ile favorilerdeki ürünün aynı olduğu görüldü");
     }
+ @After
+    public void tearDown() {
+        driver.quit();
 
 }
